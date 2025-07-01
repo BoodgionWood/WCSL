@@ -3,6 +3,8 @@
 This is the official code implementation for the TMLR paper  
 **_Wasserstein Coreset via Sinkhorn Loss_**.
 
+GitHub: [BoodgionWood/WCSL](https://github.com/BoodgionWood/WCSL)
+
 ## 📢 Update
 
 We have released the code for reproducing **Figure 4** and **Figure 9** from the paper.  
@@ -42,6 +44,22 @@ More experiments and modules are being cleaned and will be released soon.
 
 ---
 
+## 📦 Required Packages
+
+The following Python packages are used in this repository:
+
+- `numpy`
+- `torch` (version: 2.7.1+cu128)
+- `scipy`
+- `matplotlib`
+- `seaborn`
+- `pandas`
+- `pathlib`
+
+We recommend using Python ≥3.8 and a virtual environment for package management.
+
+---
+
 ## 📁 Repository Structure (WIP)
 
 - `experiments/distance/`: Scripts to compute distance-based metrics and generate key figures.
@@ -67,4 +85,4 @@ If you find our work useful, please consider citing:
 
 ---
 
-For questions or issues, feel free to open an [issue](https://github.com/your-repo/issues) or reach out to the authors.
+For questions or issues, feel free to open an [issue](https://github.com/BoodgionWood/WCSL/issues) or reach out to the authors.

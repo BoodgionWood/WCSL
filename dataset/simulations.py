@@ -1,7 +1,6 @@
 import numpy as np
 import torch
-from scipy.stats import multivariate_normal, dirichlet, multivariate_t
-from sklearn.datasets import make_moons, make_s_curve
+from scipy.stats import multivariate_normal, multivariate_t
 from torch.utils.data import DataLoader, TensorDataset
 
 
